@@ -1,0 +1,26 @@
+{
+	"root": true,
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"extends": [
+		"wordpress",
+		"plugin:react/recommended"
+	],
+	"plugins": [
+		"react"
+	],
+	"env": {
+		"node": true
+	},
+	"rules": {
+		"one-var": "off",
+		"no-eq-null": "off",
+		"eqeqeq": [ "error", "smart" ],
+		"react/prop-types": "off"
+	}
+}

@@ -1,0 +1,7 @@
+#editor blockquote footer[data-wp-placeholder] {
+	display: none;
+}
+
+#editor blockquote[data-wp-block-selected] footer[data-wp-placeholder] {
+	display: block;
+}
